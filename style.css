@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins'sans-serif;
+}
+:root{
+  --main-color: #B5C0D0;
+  --text-color:#171427;
+  --bg-color: #fff;
+}
+body{
+  width: 100%;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bg-color);
+  box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+header input{
+ padding: 5px;
+ border-radius: 20px;
+ outline: none;
+ 
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+nav li ,a{
+  list-style: none;
+  padding-right: 20px;
+  text-decoration: none;
+}
+nav li a:hover{
+  border-bottom: crimson;
+}
+.login{
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 320px;
+  margin-top: 5%;
+  margin-right: 1%;
+  min-height: 60vh;
+  padding: 10px;
+  background: var(--main-color);
+  box-shadow: -2px 0 4px  hsl(0 4% 15% / 10%);
+  border-radius: 20px;
+}
+#Close-r{
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+  .login.active{
+    right: 0;
+  }
+.login h2{
+  text-align: center;
+  margin-top: 10px;
+}
+.search.active{
+  right: 0;
+}
+label{
+  display: block;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#username{
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#lasn{
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#email{
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#password{
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#comfirm{
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#btnSign{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+}
+#btnSign:hover{
+  background-color: var(--text-color);
+  color: var(--bg-color);
+} h2{
+  text-align: center;
+  margin-top: 10px;
+}
+.product-img img{
+  width: 200px;
+  height: 200px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
